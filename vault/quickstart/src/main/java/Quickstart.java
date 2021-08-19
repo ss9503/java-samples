@@ -59,6 +59,7 @@ public class Quickstart {
      */
     private static final List<String> SCOPES =
         Arrays.asList(VaultScopes.EDISCOVERY_READONLY);
+    private static final String CREDENTIALS_FILE_PATH = "/credentials.json";
 
     static {
         try {
